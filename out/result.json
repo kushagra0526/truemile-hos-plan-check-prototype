@@ -1,0 +1,116 @@
+{
+ "dev": {
+  "totals": {
+   "plans": 1000,
+   "violating": 551,
+   "mine_stop": 551,
+   "mine_exact": 1000,
+   "mine_false": 0,
+   "naive_stop": 467,
+   "naive_false": 314
+  },
+  "by_mode": {
+   "clean": {
+    "n": 209,
+    "violating": 0,
+    "mine_codes_exact": 209,
+    "mine_stop": 0,
+    "mine_false": 0,
+    "naive_stop": 0
+   },
+   "ignore_cycle": {
+    "n": 204,
+    "violating": 162,
+    "mine_codes_exact": 204,
+    "mine_stop": 162,
+    "mine_false": 0,
+    "naive_stop": 137
+   },
+   "ignore_window": {
+    "n": 199,
+    "violating": 181,
+    "mine_codes_exact": 199,
+    "mine_stop": 181,
+    "mine_false": 0,
+    "naive_stop": 156
+   },
+   "no_break": {
+    "n": 187,
+    "violating": 41,
+    "mine_codes_exact": 187,
+    "mine_stop": 41,
+    "mine_false": 0,
+    "naive_stop": 38
+   },
+   "stale_clock": {
+    "n": 201,
+    "violating": 167,
+    "mine_codes_exact": 201,
+    "mine_stop": 167,
+    "mine_false": 0,
+    "naive_stop": 136
+   }
+  }
+ },
+ "held_out": {
+  "totals": {
+   "plans": 1000,
+   "violating": 552,
+   "mine_stop": 552,
+   "mine_exact": 1000,
+   "mine_false": 0,
+   "naive_stop": 495,
+   "naive_false": 356
+  },
+  "by_mode": {
+   "clean": {
+    "n": 181,
+    "violating": 0,
+    "mine_codes_exact": 181,
+    "mine_stop": 0,
+    "mine_false": 0,
+    "naive_stop": 0
+   },
+   "dwell_unlogged": {
+    "n": 160,
+    "violating": 146,
+    "mine_codes_exact": 160,
+    "mine_stop": 146,
+    "mine_false": 0,
+    "naive_stop": 133
+   },
+   "ignore_cycle": {
+    "n": 168,
+    "violating": 149,
+    "mine_codes_exact": 168,
+    "mine_stop": 149,
+    "mine_false": 0,
+    "naive_stop": 135
+   },
+   "ignore_window": {
+    "n": 143,
+    "violating": 121,
+    "mine_codes_exact": 143,
+    "mine_stop": 121,
+    "mine_false": 0,
+    "naive_stop": 107
+   },
+   "no_break": {
+    "n": 174,
+    "violating": 27,
+    "mine_codes_exact": 174,
+    "mine_stop": 27,
+    "mine_false": 0,
+    "naive_stop": 26
+   },
+   "stale_clock": {
+    "n": 174,
+    "violating": 109,
+    "mine_codes_exact": 174,
+    "mine_stop": 109,
+    "mine_false": 0,
+    "naive_stop": 94
+   }
+  }
+ }
+}
